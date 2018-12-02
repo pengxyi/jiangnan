@@ -49,7 +49,8 @@ h1{
 	padding-right: 1rem;
 }
 .article{
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 }
 .category{
 	text-align: center;
@@ -62,19 +63,21 @@ h1{
 	margin: 0;
 	padding: 0;
 }
-
+.tese-list img,.xinyang-list img{
+	width: 95%;
+}
 .info-list{
 	clear:both;
 	list-style:none;
 }
 .tese-list li,.xinyang-list li{
 	float:left;
-	padding-left: 1.5rem;
+	padding-left: .4rem;
 }
 .info-list li{
 	float:left;
-	padding-left:3rem;
-	padding-top: 2rem;
+	padding-left:1.5rem;
+	padding-top: 1.5rem;
 }
 strong{
 	color:#040404;
