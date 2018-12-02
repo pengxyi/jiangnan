@@ -10,7 +10,29 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="favicon.png">
 </head>
+<script>
+  var _LoadingHtml = '<div id="loading">' +
+    '<div class="world">' +
+    '<div class="cube" tabindex="0">' +
+    '<div class="cube__front"></div>' +
+    '<div class="cube__back"></div>' +
+    '<div class="cube__left"></div>' +
+    '<div class="cube__right"></div>' +
+    '<div class="cube__top"></div>' +
+    '<div class="cube__bottom"></div>' +
+    '</div>' +
+    '</div>' +
+    '</div>';
+  document.write(_LoadingHtml);
+  document.onreadystatechange = completeLoading;
 
+  function completeLoading() {
+    if (document.readyState == "complete") {
+      var loadingMask = document.getElementById('loading');
+      loadingMask.parentNode.removeChild(loadingMask);
+    }
+  }
+</script>
 <body>
   <div class="header">
     <h5>欢迎！（Welcome！）</h5>
@@ -89,32 +111,8 @@
     </ul>
     <p class="Welcome">欢迎前来品尝！</p>
   </div>
-
 </body>
 <script src='js/jquery.min.js'></script>
 <script src="js/main.js"></script>
-<script>
-  var _LoadingHtml = '<div id="loading">' +
-    '<div class="world">' +
-    '<div class="cube" tabindex="0">' +
-    '<div class="cube__front"></div>' +
-    '<div class="cube__back"></div>' +
-    '<div class="cube__left"></div>' +
-    '<div class="cube__right"></div>' +
-    '<div class="cube__top"></div>' +
-    '<div class="cube__bottom"></div>' +
-    '</div>' +
-    '</div>' +
-    '</div>';
-  document.write(_LoadingHtml);
-  document.onreadystatechange = completeLoading;
-
-  function completeLoading() {
-    if (document.readyState == "complete") {
-      var loadingMask = document.getElementById('loading');
-      loadingMask.parentNode.removeChild(loadingMask);
-    }
-  }
-</script>
 
 </html>
