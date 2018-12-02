@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+<script>
+  var _LoadingHtml = '<div id="loading">' +
+    '<div class="world">' +
+    '<div class="cube" tabindex="0">' +
+    '<div class="cube__front"></div>' +
+    '<div class="cube__back"></div>' +
+    '<div class="cube__left"></div>' +
+    '<div class="cube__right"></div>' +
+    '<div class="cube__top"></div>' +
+    '<div class="cube__bottom"></div>' +
+    '</div>' +
+    '</div>' +
+    '</div>';
+  document.write(_LoadingHtml);
+  document.onreadystatechange = completeLoading;
 
+  function completeLoading() {
+    if (document.readyState == "complete") {
+      var loadingMask = document.getElementById('loading');
+      loadingMask.parentNode.removeChild(loadingMask);
+    }
+  }
+</script>
 <head>
   <meta charset="utf-8">
   <title>醉忆江南 - 来自大别山深处的农家味道！</title>
-  <link rel="stylesheet" href="css/box.css">
-  <script>
-    var _LoadingHtml = '<div id="loading">' +
-      '<div class="world">' +
-      '<div class="cube" tabindex="0">' +
-      '<div class="cube__front"></div>' +
-      '<div class="cube__back"></div>' +
-      '<div class="cube__left"></div>' +
-      '<div class="cube__right"></div>' +
-      '<div class="cube__top"></div>' +
-      '<div class="cube__bottom"></div>' +
-      '</div>' +
-      '</div>' +
-      '</div>';
-    document.write(_LoadingHtml);
-    document.onreadystatechange = completeLoading;
-  
-    function completeLoading() {
-      if (document.readyState == "complete") {
-        var loadingMask = document.getElementById('loading');
-        loadingMask.parentNode.removeChild(loadingMask);
-      }
-    }
-  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/box.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="favicon.png">
 </head>
