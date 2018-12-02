@@ -7,6 +7,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index:100;
+  position: fixed;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -17,7 +19,7 @@
           align-items: center;
 }
 
-.world {
+#loading .world {
   -webkit-perspective: 800px;
           perspective: 800px;
   width: 100vh;
@@ -35,7 +37,7 @@
           align-items: center;
 }
 
-.cube {
+#loading .cube {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
@@ -47,17 +49,17 @@
           animation: rotator 4.5s linear infinite;
   outline: 0;
 }
-.cube * {
+#loading .cube * {
   background: #000;
   box-shadow: 0 0 3vh currentColor;
   -webkit-transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
   transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
-.cube:hover * {
+#loading .cube:hover * {
   background: currentColor;
   box-shadow: 0 0 20vh currentColor;
 }
-.cube .cube__front {
+#loading .cube .cube__front {
   color: deeppink;
   -webkit-transform: translateZ(5vh);
           transform: translateZ(5vh);
@@ -67,7 +69,7 @@
   width: 100%;
   height: 100%;
 }
-.cube .cube__right {
+#loading .cube .cube__right {
   color: lightcoral;
   -webkit-transform: rotateY(90deg) translateZ(5vh);
           transform: rotateY(90deg) translateZ(5vh);
@@ -77,7 +79,7 @@
   width: 100%;
   height: 100%;
 }
-.cube .cube__left {
+#loading .cube .cube__left {
   color: skyblue;
   -webkit-transform: rotateY(270deg) translateZ(5vh);
           transform: rotateY(270deg) translateZ(5vh);
@@ -87,7 +89,7 @@
   width: 100%;
   height: 100%;
 }
-.cube .cube__back {
+#loading .cube .cube__back {
   color: seagreen;
   position: absolute;
   top: 0;
@@ -97,7 +99,7 @@
   -webkit-transform: rotateY(180deg) translateZ(5vh);
           transform: rotateY(180deg) translateZ(5vh);
 }
-.cube .cube__top {
+#loading .cube .cube__top {
   color: mediumseagreen;
   -webkit-transform: rotateX(90deg) translateZ(5vh);
           transform: rotateX(90deg) translateZ(5vh);
@@ -107,7 +109,7 @@
   width: 100%;
   height: 100%;
 }
-.cube .cube__bottom {
+#loading .cube .cube__bottom {
   color: dodgerblue;
   -webkit-transform: rotateX(270deg) translateZ(5vh);
           transform: rotateX(270deg) translateZ(5vh);
