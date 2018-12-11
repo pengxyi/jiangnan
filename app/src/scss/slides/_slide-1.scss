@@ -1,59 +1,131 @@
+
 .slide-1 {
-    background-image: url('../images/background.png');
-    background-size:100% 100%;
+    background-image: url(../images/background.png);
+    background-size: 100% 100%
+}
+
+.slide-1 .item-image {
+    width: 18rem;
+    height: 18rem;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/one-yuan.png);
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.slide-1 .item-text-1, .slide-1 .item-text-2, .slide-1 .item-text-3 {
+    margin: 0 auto;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center
+}
+
+.slide-1 .item-text-1 {
+    width: 18rem;
+    color: #fff;
+    font-size: 1.4rem;
+    text-shadow: .3rem .3rem 2rem #e7c943;
+    top: 24rem
+}
+
+.slide-1 .item-text-2 {
+    width: 18rem;
+    color: #e7c943;
+    font-size: 1.5rem;
+    top: 26rem
+}
+
+.slide-1 .item-text-2 img {
+    width: 1.25rem;
+    height: 1.25rem
+}
+
+.slide-1 .item-text-3 {
+    width: 18rem;
+    color: #fff;
+    font-size: 1rem;
+    top: 28rem
+}
+
+.slide-2, .slide-3 {
+    background-image: url(../images/background.png);
+    background-size: 100% 100%
+}
+
+.slide-2 .item-image, .slide-3 .item-image {
+    width: 86%;
+    height: 86%;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 2%;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.slide-2 .item-text-1, .slide-3 .item-text-1 {
+    background-image: url(/images/caidai.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
-    .item-image {
-        width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 2rem;
-        left: 0;
-        right: 0;
-        margin: auto;
-        background-image: url('../images/one-yuan.png');
-    }
-    .item-text-1 {
-        width: 18rem;
-        color: #fff;
-        font-size: 1.4rem;
-        text-shadow: .3rem .3rem 2rem rgb(231, 201, 67);
-        font-weight: bold;
-        position: absolute;
-        top: 24rem;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .item-text-2 {
-        width: 18rem;
-        color: rgb(231, 201, 67);
-        font-size: 1.5rem;
-        font-weight: bold;
-        position: absolute;
-        top: 26rem;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        text-align: center;
-        img {
-            width: 1.25rem;
-            height: 1.25rem;
-        }
-    }
-    .item-text-3 {
-        width: 18rem;
-        color: #fff;
-        font-size: 1rem;
-        font-weight: bold;
-        position: absolute;
-        top: 28rem;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
+    width: 60%;
+    height: 5rem;
+    color: #030303;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    padding-top: .7rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center
+}
+
+.slide-2 .item-text-2, .slide-3 .item-text-2 {
+    width: 100%;
+    position: absolute;
+    top: 13%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center
+}
+
+.duncai-list, .tese-list {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.tese-list li {
+    width: 31%;
+    float: left;
+    margin-left: 1.5%;
+    margin-top: 1.5%
+}
+
+.duncai-list p, .tese-list p {
+    padding: 0;
+    margin: 0;
+    font-size: .7rem
+}
+
+.duncai-list span, .tese-list span {
+    font-size: .7rem;
+    color: red;
+}
+
+.duncai-list li {
+    width: 31%;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    float: left
 }
