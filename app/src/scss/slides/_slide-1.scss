@@ -36,7 +36,7 @@
 .slide-1 .item-text-2 {
     width: 18rem;
     color: #e7c943;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     top: 23rem
 }
 
@@ -48,7 +48,7 @@
 .slide-1 .item-text-3 {
     width: 18rem;
     color: #fff;
-    font-size: 1rem;
+    font-size: .9rem;
     top: 25rem
 }
 
@@ -90,19 +90,11 @@ color: #e7c943;
 border: 0.1rem solid yellow;
 }
 
-.dabieshan-list, .chuancai-list {
+.dabieshan-list,.chuancai-list {
     width: 100%;
     list-style: none;
     margin-top: 21%;
     padding: 0;
-}
-
-.dabieshan-list li {
-    width: 46%;
-    float: left;
-    margin-left: 2.5%;
-    margin-top: .5%;
-    text-align: center;
 }
 
 .dabieshan-list p, .chuancai-list p,.liangcai-list p, .dianxin-list p{
@@ -122,17 +114,21 @@ border: 0.1rem solid yellow;
 .liangcai-list,.dianxin-list{
   width: 100%;
   list-style: none;
-  margin-top: 5%;
+  margin-top: .5%;
   padding: 0;
 }
-.chuancai-list li,.liangcai-list li,.dianxin-list li{
+
+.dabieshan-list li,.chuancai-list li,.liangcai-list li,.dianxin-list li{
     width: 30%;
     margin-left: 2.5%;
     margin-top: .5%;
     float: left;
     text-align: center;
 }
-
+.slide-3 h4{
+  margin: 0;
+  padding: 0;
+}
 //4
 
 .slide-4 {
