@@ -1,29 +1,30 @@
-
 .slide-1 {
-    background-image: url(../images/background.png);
-    background-size: 100% 100%
+  background-image: url("../images/background.png");
+  background-size: 100% 100%;
 }
 
 .slide-1 .item-image {
-    width: 18rem;
-    height: 18rem;
-    background-position: center;
-    background-size: contain;
-    background-image: url(../images/one-yuan.png);
-    position: absolute;
-    top: 2rem;
-    left: 0;
-    right: 0;
-    margin: auto;
+  width: 18rem;
+  height: 18rem;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../images/one-yuan.png");
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-.slide-1 .item-text-1, .slide-1 .item-text-2, .slide-1 .item-text-3 {
-    margin: 0 auto;
-    font-weight: 700;
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center
+.slide-1 .item-text-1,
+.slide-1 .item-text-2,
+.slide-1 .item-text-3 {
+  margin: 0 auto;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .slide-1 .item-text-1 {
@@ -34,32 +35,33 @@
 }
 
 .slide-1 .item-text-2 {
-    width: 18rem;
-    color: #e7c943;
-    font-size: 1.1rem;
-    top: 23rem
+  width: 18rem;
+  color: #e7c943;
+  font-size: 1.1rem;
+  top: 23rem;
 }
 
 .slide-1 .item-text-2 img {
-    width: 1.25rem;
-    height: 1.25rem
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .slide-1 .item-text-3 {
-    width: 18rem;
-    color: #fff;
-    font-size: .9rem;
-    top: 25rem
+  width: 18rem;
+  color: #fff;
+  font-size: 0.9rem;
+  top: 25rem;
 }
 
-
-
-.slide-2, .slide-3 {
-    background-image: url(../images/background.png);
-    background-size: 100% 100%
+.slide-2,
+.slide-3 {
+  background-image: url("../images/background.png");
+  background-size: 100% 100%;
 }
-.slide-2 .item-text-1, .slide-3 .item-text-1 {
-  background-image: url(/images/caidai.jpg);
+
+.slide-2 .item-text-1,
+.slide-3 .item-text-1 {
+  background-image: url("/images/caidai.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 50%;
@@ -67,135 +69,94 @@
   color: #030303;
   font-weight: 700;
   position: absolute;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
   left: 0;
   right: 0;
-  top: .1rem;
+  top: 0.1rem;
   margin: 0 auto;
   text-align: center;
 }
-.slide-2 .item-text-1{
-  font-size: .7rem;
+
+.slide-2 .item-text-1 {
+  font-size: 0.7rem;
 }
-.slide-3 .item-text-1{
+
+.slide-3 .item-text-1 {
   font-size: 1rem;
 }
-.slide-2 .item-text-2, .slide-3 .item-text-2 {
+
+.slide-2 .item-text-2,
+.slide-3 .item-text-2 {
   width: 96%;
-height: 98%;
-position: absolute;
-top: 1%;
-left: 2%;
-color: #e7c943;
-border: 0.1rem solid yellow;
+  height: 98%;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  color: #e7c943;
+  border: 0.1rem solid yellow;
 }
 
-.dabieshan-list,.chuancai-list {
-    width: 100%;
-    list-style: none;
-    margin-top: 21%;
-    padding: 0;
-}
-
-.dabieshan-list p, .chuancai-list p,.liangcai-list p, .dianxin-list p{
-    padding: 0;
-    margin: 0;
-    color: #000;
-    font-size: .6rem;
-    font-weight: 700;
-}
-
-.dabieshan-list span, .chuancai-list span,.liangcai-list span, .dianxin-list span {
-    font-size: .6rem;
-    color: red;
-    padding: 0;
-    margin: 0;
-}
-.liangcai-list,.dianxin-list{
+.chuancai-list,
+.dabieshan-list {
   width: 100%;
   list-style: none;
-  margin-top: .5%;
+  margin-top: 21%;
   padding: 0;
 }
 
-.dabieshan-list li,.chuancai-list li,.liangcai-list li,.dianxin-list li{
-    width: 30%;
-    margin-left: 2.5%;
-    margin-top: .5%;
-    float: left;
-    text-align: center;
+.chuancai-list p,
+.dabieshan-list p,
+.dianxin-list p,
+.liangcai-list p {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 0.6rem;
+  font-weight: 700;
 }
-.slide-3 h4{
+
+.chuancai-list span,
+.dabieshan-list span,
+.dianxin-list span,
+.liangcai-list span {
+  font-size: 0.6rem;
+  color: red;
+  padding: 0;
+  margin: 0;
+}
+
+.dianxin-list,
+.liangcai-list {
+  width: 100%;
+  list-style: none;
+  margin-top: 0.5%;
+  padding: 0;
+}
+
+.chuancai-list li,
+.dabieshan-list li,
+.dianxin-list li,
+.liangcai-list li {
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 0.5%;
+  float: left;
+  text-align: center;
+}
+
+.slide-3 h4 {
   margin: 0;
   padding: 0;
 }
 //4
 
 .slide-4 {
-    background-image: url(../images/background.png);
-    background-size: 100% 100%
+  background-image: url("../images/background.png");
+  background-size: 100% 100%;
 }
 
 .slide-4 .item-text-1 {
-    background-image: url(/images/caidai.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 5.5rem;
-    color: #030303;
-    font-size: 1rem;
-    font-weight: 700;
-    position: absolute;
-    padding-top: .7rem;
-    left: 0;
-    right: 0;
-    top: .1rem;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.slide-4 .item-text-2 {
-  width: 96%;
-height: 98%;
-position: absolute;
-top: 1%;
-left: 2%;
-color: #e7c943;
-font-size: 1.5rem;
-border: 0.1rem solid yellow;
-}
-
-.slide-4 .item-text-3 {
-    color: #ffeb33;
-    font-size: 1.5rem;
-    padding-top:4rem;
-    padding-left: .8rem;
-    margin: 0;
-}
-.slide-4 .item-text-4 {
-    color: rgba(255, 244, 255, 0.97);
-    font-size: 1rem;
-    text-indent: 2em;
-    padding:.5rem;
-    margin: 0;
-}
-.slide-4 .item-text-5 {
-    width:88%;
-    height: 40%;
-    margin: 0 auto;
-    background-image: url(/images/hometown.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-//5
-
-.slide-5 {
-    background-image: url(../images/background.png);
-    background-size: 100% 100%
-}
-
-.slide-5 .item-text-1 {
-  background-image: url(/images/caidai.jpg);
+  background-image: url("/images/caidai.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 50%;
@@ -204,64 +165,127 @@ border: 0.1rem solid yellow;
   font-size: 1rem;
   font-weight: 700;
   position: absolute;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
   left: 0;
   right: 0;
-  top: .1rem;
+  top: 0.1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slide-4 .item-text-2 {
+  width: 96%;
+  height: 98%;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  color: #e7c943;
+  font-size: 1.5rem;
+  border: 0.1rem solid yellow;
+}
+
+.slide-4 .item-text-3 {
+  color: #ffeb33;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+  padding-left: 0.8rem;
+  margin: 0;
+}
+
+.slide-4 .item-text-4 {
+  color: rgba(255, 244, 255, 0.97);
+  font-size: 1rem;
+  text-indent: 2em;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.slide-4 .item-text-5 {
+  width: 88%;
+  height: 40%;
+  margin: 0 auto;
+  background-image: url("/images/hometown.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+//5
+
+.slide-5 {
+  background-image: url("../images/background.png");
+  background-size: 100% 100%;
+}
+
+.slide-5 .item-text-1 {
+  background-image: url("/images/caidai.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 5.5rem;
+  color: #030303;
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  padding-top: 0.7rem;
+  left: 0;
+  right: 0;
+  top: 0.1rem;
   margin: 0 auto;
   text-align: center;
 }
 
 .slide-5 .item-text-2 {
   width: 96%;
-height: 98%;
-position: absolute;
-top: 1%;
-left: 2%;
-color: #e7c943;
-font-size: 1.5rem;
-border: 0.1rem solid yellow;
+  height: 98%;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  color: #e7c943;
+  font-size: 1.5rem;
+  border: 0.1rem solid yellow;
 }
 
-.slide-5-list{
-    list-style: none;
-    margin: 5rem;
-    padding: 0;
+.slide-5-list {
+  list-style: none;
+  margin: 5rem;
+  padding: 0;
 }
-.slide-5-listtop{
-    margin: 0 auto;
+
+.slide-5-listtop {
+  margin: 0 auto;
 }
-.slide-5-listleft{
-    width: 50%;
-    height: 7rem;
-    float: left;
+
+.slide-5-listleft {
+  width: 50%;
+  height: 7rem;
+  float: left;
 }
-.slide-5-listright{
-    width: 50%;
-    height: 7rem;
-    float: right;
+
+.slide-5-listright {
+  width: 50%;
+  height: 7rem;
+  float: right;
 }
+
 .slide-5 .item-text-4 {
-    clear: both;
-    width: 92%;
-    height:4rem;
-    background-color: yellow;
-    padding: .7rem;
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin: 0 auto;
-    color: #030303;
-
+  clear: both;
+  width: 92%;
+  height: 4rem;
+  background-color: yellow;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 auto;
+  color: #030303;
 }
 //6
 
 .slide-6 {
-    background-image: url(../images/background.png);
-    background-size: 100% 100%
+  background-image: url("../images/background.png");
+  background-size: 100% 100%;
 }
 
 .slide-6 .item-text-1 {
-  background-image: url(/images/caidai.jpg);
+  background-image: url("/images/caidai.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 50%;
@@ -270,44 +294,46 @@ border: 0.1rem solid yellow;
   font-size: 1rem;
   font-weight: 700;
   position: absolute;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
   left: 0;
   right: 0;
-  top: .1rem;
+  top: 0.1rem;
   margin: 0 auto;
   text-align: center;
 }
 
 .slide-6 .item-text-2 {
   width: 96%;
-height: 98%;
-position: absolute;
-top: 1%;
-left: 2%;
-color: #e7c943;
-font-size: 1.5rem;
-border: 0.1rem solid yellow;
+  height: 98%;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  color: #e7c943;
+  font-size: 1.5rem;
+  border: 0.1rem solid yellow;
 }
 
 .slide-6 .item-text-3 {
-    color: #ffeb33;
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding-top: 4rem;
+  color: #ffeb33;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 4rem;
 }
+
 .slide-6 .item-text-4 {
-    text-align: center;
-    left: 5%;
-    margin: 0;
-    padding-top: .5rem;
+  text-align: center;
+  left: 5%;
+  margin: 0;
+  padding-top: 0.5rem;
 }
+
 .slide-6 .item-text-5 {
-    width: 80%;
-    font-size: .8rem;
-    margin: 0 auto;
-    left: 10%;
-    text-align: center;
+  width: 80%;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  left: 10%;
+  text-align: center;
 }
